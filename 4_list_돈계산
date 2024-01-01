@@ -1,0 +1,12 @@
+names = '하나, 민지, 지영'
+
+print(len(names))
+# The code above converts the input into an array seperating
+# each name in the input by a comma and space.
+# 🚨 Don't change the code above 👆
+import random
+len = len(names)
+random_people = random.randint(0, len -1)
+choice_people = names[random_people]
+
+print('오늘은',choice_people ,'이 낼차례야.')
